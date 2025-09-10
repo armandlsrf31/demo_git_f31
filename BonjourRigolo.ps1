@@ -9,9 +9,6 @@ $user = $env:USERNAME
 # Effacer l'écran pour un effet "propre"
 Clear-Host
 
-# Afficher le message
-Write-Host "Bonjour $user, tu resplendis en ce $day !" -ForegroundColor Cyan
-Start-Sleep -Seconds 1
 
 # Définir l'art ASCII du hibou
 $asciiArt = @"
