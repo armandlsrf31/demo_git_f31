@@ -1,4 +1,4 @@
-# Script: BonjourHibou.ps1
+﻿# Script: BonjourHibou.ps1
 
 # Récupérer le jour de la semaine en français
 $day = (Get-Date).ToString("dddd", [System.Globalization.CultureInfo]::GetCultureInfo("fr-FR"))
@@ -23,7 +23,7 @@ $asciiArt = @"
   /'\_   _/`\
   \___)=(___/
 
-Un hibou veille sur toi 🦉
+Un pingouin veille sur toi 🐧
 "@
 
 # Afficher ligne par ligne pour un effet dramatique
