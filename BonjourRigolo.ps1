@@ -38,3 +38,7 @@ foreach ($line in $asciiArt -split "`n") {
 [console]::beep(1200,300)
 
 Write-Host "`nBonne journée $user ! 🌟" -ForegroundColor Green
+
+# Commit branche martin
+
+Write-Host "Bonjour $user, j'ai créé ma branche en ce $day !"
