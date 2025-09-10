@@ -42,3 +42,5 @@ Write-Host "`nBonne journée $user ! 🌟" -ForegroundColor Green
 # Commit branche martin
 
 Write-Host "Bonjour $user, j'ai créé ma branche en ce $day !"
+
+# test commit
